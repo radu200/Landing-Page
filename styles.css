@@ -1,0 +1,34 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+}
+
+#header-img{
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link{
+  display: inline !important;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .jumbotron{
+    margin-top: 80px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .jumbotron{
+    margin-top: 130px;
+  }
+}
+.jumbotron {
+  background-image: url("https://webhostinggeeks.com/assets/app/assets/images/xhero-bg.jpeg.pagespeed.ic.44oor01KSH.jpg");
+  background-size: cover;
+}
